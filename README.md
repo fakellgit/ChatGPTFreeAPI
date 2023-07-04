@@ -4,19 +4,20 @@ Welcome to the ChatGPT API Free, API that allows you to access OpenAI's ChatGPT 
 
 ChatGPT API Free is a powerful tool that allows users to generate responses to prompts using the GPT-3.5 language model. The API is easy to use and can be accessed by sending a POST request to a specific endpoint. 
 
+[Demo Url](https://fakell.raidghost.com/)
 
 ## Usage
 
 To use ChatGPT API Free, simply send a POST request to the following endpoint:
 
 ```
-http://fakell.raidghost.com/v1/chat/completions/
+https://fakell.raidghost.com/v1/chat/completions/
 ```
 
 For instance, to generate a response to the prompt "Hello, how are you?" using the `gpt-3.5-turbo` model, send the following `curl` command:
 
 ```sh
-curl http://fakell.raidghost.com/v1/chat/completions/ \
+curl https://fakell.raidghost.com/v1/chat/completions/ \
   -H 'Content-Type: application/json' \
   -d '{
   "model": "gpt-3.5-turbo",
